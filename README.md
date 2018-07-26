@@ -17,7 +17,7 @@ See also [Typesetter Home](http://www.typesettercms.com), [Typesetter on GitHub]
 * Typesetter CMS (formerly gpEasy) 2.2+
 
 ## Manual Installation ##
-1. Download the [master ZIP archive](https://github.com/juek/OpenGraph/archive/master.zip)
+1. Download the [master ZIP archive](https://github.com/juek/SiteMaintenancePage/archive/master.zip)
 2. Upload the extracted folder 'SiteMaintenancePage-master' to your server into the /addons directory
 3. Install using Typesetter's Admin Toolbox &rarr; Plugins &rarr; Manage &rarr; Available &rarr; Site Maintenance Page
 4. Enable maintenance mode and make your settings via Admin Toolbox &rarr; Plugins &rarr; Site Maintenance Page &rarr; Admin Site Maintenance Page 
