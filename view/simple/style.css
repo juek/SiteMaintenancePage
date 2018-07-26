@@ -1,0 +1,89 @@
+/* simple theme*/
+ 
+body {
+  background-color: rgb(55, 60, 65);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 16px;
+  color: rgb(95, 100, 105);
+}
+
+a, a:visited, a:hover {
+ color: rgb(60, 100, 220);
+}
+
+.simpleModal {
+  display: inline-block;
+  overflow: hidden;
+  width: 480px;
+  max-width: 90vw;
+  margin: 35vmin auto;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25), 0 0 12px rgba(0, 0, 0, 0.25);
+  border-radius: 2px;
+}
+
+.simpleModal-header {
+  background: rgb(238, 240, 242);
+  padding: 16px 24px;
+  border-bottom: 3px solid rgba(60, 100, 220, 1);
+  -webkit-animation: 3s infinite ease-in-out pulse;
+  animation: 3s infinite ease-in-out pulse;
+}
+
+@-webkit-keyframes pulse{
+ 0%, 100% { border-bottom-color: rgba(60, 100, 220, 1); }
+ 50%      { border-bottom-color: rgba(60, 100, 220, 0); }
+}
+
+
+@keyframes pulse{
+ 0%, 100% { border-bottom-color: rgba(60, 100, 220, 1); }
+ 50%      { border-bottom-color: rgba(60, 100, 220, 0); }
+}
+
+.simpleModal-body {
+  background: rgb(255, 255, 255);
+  padding: 16px 24px 24px;
+}
+
+.simpleModal-body > *:first-child{
+  margin-top: 0;
+}
+
+.simpleModal-body > *:last-child{
+  margin-bottom: 0;
+}
+
+.simpleModal-footer {
+  padding: 8px 24px 12px;
+  background: rgb(110, 120, 130);
+  color: rgb(218, 222, 226);
+  font-size: 12px;
+}
+
+.simpleModal-footer a,
+.simpleModal-footer a:visited {
+  display: block;
+  color: rgb(155, 160, 165);
+  text-decoration: none;
+}
+
+.simpleModal-footer a:hover,
+.simpleModal-footer a:active {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 30px;
+  color: rgb(55, 60, 65);
+  font-weight: 300;
+  margin: 0;
+  line-height: 1;
+}
